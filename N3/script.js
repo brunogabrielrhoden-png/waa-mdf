@@ -1,7 +1,3 @@
-// ===============================
-// FORMULÁRIO DE ORÇAMENTO
-// ===============================
-
 const formulario = document.getElementById("formulario");
 
 if (formulario) {
@@ -30,10 +26,6 @@ if (formulario) {
 
 }
 
-// ===============================
-// FORMULÁRIO DE CONTATO
-// ===============================
-
 const formContato = document.getElementById("formContato");
 
 if (formContato) {
@@ -50,10 +42,6 @@ if (formContato) {
     });
 
 }
-
-// ===============================
-// FILTRO DO CATÁLOGO
-// ===============================
 
 function filtrar(categoria) {
 
@@ -82,10 +70,6 @@ function filtrar(categoria) {
     });
 
 }
-
-// ===============================
-// PESQUISA DE PRODUTOS
-// ===============================
 
 const pesquisa = document.getElementById("pesquisa");
 
