@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | WA.A MDF</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <div class="logo">
+            WA.A MDF
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Catalogo.html" class="Ativo">Catálogo</a></li>
+                <li><a href="Personalizacao.html">Personalização</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Título -->
+        <section class="tituloPagina">
+
+            <h1>Catálogo de Produtos</h1>
+
+            <p>
+                Conheça alguns dos produtos produzidos pela WA.A MDF.
+                Todos podem ser personalizados.
+            </p>
+
+        </section>
+
+        <!-- Pesquisa -->
+        <section class="pesquisa">
+
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar produto...">
+
+        </section>
+
+        <!-- Categorias -->
+        <section class="categorias">
+
+            <button onclick="filtrar('todos')">Todos</button>
+
+            <button onclick="filtrar('decoracao')">Decoração</button>
+
+            <button onclick="filtrar('religioso')">Religioso</button>
+
+            <button onclick="filtrar('organizacao')">Organização</button>
+
+        </section>
+
+        <!-- Produtos -->
+        <section class="galeriaProdutos">
+
+            <div class="produto decoracao">
+
+                <img src="../Imagens/Torre eiffel.png" alt="Torre Eiffel">
+
+                <h3>Torre Eiffel</h3>
+
+                <p>Peça decorativa em MDF.</p>
+
+                <button>Solicitar orçamento</button>
+
+            </div>
+
+            <div class="produto decoracao">
+
+                <img src="../Imagens/Mandala.png" alt="Mandala">
+
+                <h3>Mandala</h3>
+
+                <p>Ideal para decoração de salas e quartos.</p>
+
+                <button>Solicitar orçamento</button>
+
+            </div>
+
+            <div class="produto religioso">
+
+                <img src="../Imagens/Oração.png" alt="Oração">
+
+                <h3>Oração de Parede</h3>
+
+                <p>Decoração religiosa personalizada.</p>
+
+                <button>Solicitar orçamento</button>
+
+            </div>
+
+            <div class="produto organizacao">
+
+                <img src="../Imagens/Nome decorativo.png" alt="Nome Decorativo">
+
+                <h3>Nome Decorativo</h3>
+
+                <p>Produzido conforme o nome escolhido.</p>
+
+                <button>Solicitar orçamento</button>
+
+            </div>
+
+            <div class="produto organizacao">
+
+                <img src="../Imagens/porta chave.png" alt="Porta-Chaves">
+
+                <h3>Porta-Chaves</h3>
+
+                <p>Organização e decoração para sua casa.</p>
+
+                <button>Solicitar orçamento</button>
+
+            </div>
+
+            <div class="produto decoracao">
+
+                <img src="../Imagens/Quadro decorativo.png" alt="Quadro Decorativo">
+
+                <h3>Quadro Decorativo</h3>
+
+                <p>Modelos personalizados em MDF.</p>
+
+                <button>Solicitar orçamento</button>
+
+            </div>
+
+        </section>
+
+        <!-- Chamada -->
+        <section class="cta">
+
+            <h2>Não encontrou o que procura?</h2>
+
+            <p>
+                Produzimos peças totalmente personalizadas para nossos clientes.
+            </p>
+
+            <a href="Personalizacao.html" class="botao">
+                Solicitar Produto Personalizado
+            </a>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+
+        <p>WA.A MDF Cortes a Laser</p>
+
+        <p>Schroeder - SC</p>
+
+        <p>WhatsApp: (47) 98845-5383</p>
+
+    </footer>
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

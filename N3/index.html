@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WA.A MDF Cortes a Laser</title>
+
+    <link rel="stylesheet" href="../N3/style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <div class="logo">
+            WA.A MDF
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html" class="Ativo">Home</a></li>
+                <li><a href="Pages/Catalogo.html">Catálogo</a></li>
+                <li><a href="Pages/Personalizacao.html">Personalização</a></li>
+                <li><a href="Pages/Sobre.html">Sobre</a></li>
+                <li><a href="Pages/Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Banner -->
+
+        <section class="banner">
+
+            <h1>Transformando MDF em Arte</h1>
+
+            <p>
+                Produtos personalizados para decoração,
+                presentes e organização.
+            </p>
+
+            <a href="Pages/Catalogo.html" class="botao">
+                Ver Produtos
+            </a>
+
+        </section>
+
+
+        <!-- Diferenciais -->
+
+        <section class="diferenciais">
+
+            <h2>Por que escolher a WA.A?</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Personalização</h3>
+                    <p>Criamos peças únicas para cada cliente.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Qualidade</h3>
+                    <p>Acabamento profissional e materiais de qualidade.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Entrega</h3>
+                    <p>Produção rápida e atendimento seguro.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Produtos -->
+
+        <section class="produtos">
+
+            <h2>Produtos em Destaque</h2>
+
+            <div class="botoesFiltro">
+
+                <button onclick="filtrar('todos')">Todos</button>
+
+                <button onclick="filtrar('decoracao')">Decoração</button>
+
+                <button onclick="filtrar('religioso')">Religioso</button>
+
+            </div>
+
+            <div class="galeria">
+
+                <div class="produto decoracao">
+
+                    <img src="Imagens/Torre eiffel.png" alt="Torre Eiffel">
+
+                    <h3>Torre Eiffel</h3>
+
+                    <p>Peça decorativa em MDF.</p>
+
+                </div>
+
+                <div class="produto decoracao">
+
+                    <img src="Imagens/Mandala.png" alt="Mandala">
+
+                    <h3>Mandala</h3>
+
+                    <p>Ideal para decoração de ambientes.</p>
+
+                </div>
+
+                <div class="produto religioso">
+
+                    <img src="Imagens/Oração.png" alt="Oração">
+
+                    <h3>Oração de Parede</h3>
+
+                    <p>Decoração religiosa personalizada.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Como Funciona -->
+
+        <section class="comoFunciona">
+
+            <h2>Como Funciona</h2>
+
+            <ol>
+
+                <li>Escolha um produto.</li>
+
+                <li>Solicite a personalização.</li>
+
+                <li>Receba um orçamento.</li>
+
+                <li>Produzimos sua peça.</li>
+
+                <li>Entrega para você.</li>
+
+            </ol>
+
+        </section>
+
+
+        <!-- Avaliações -->
+
+        <section class="avaliacoes">
+
+            <h2>O que nossos clientes dizem</h2>
+
+            <div class="card">
+
+                ⭐⭐⭐⭐⭐
+
+                <p>"Excelente acabamento e atendimento!"</p>
+
+            </div>
+
+            <div class="card">
+
+                ⭐⭐⭐⭐⭐
+
+                <p>"Produto lindo e entregue antes do prazo."</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Formulário -->
+
+        <section class="orcamento">
+
+            <h2>Solicite um orçamento</h2>
+
+            <form id="formulario">
+
+                <label for="nome">Nome</label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    required>
+
+                <label for="email">E-mail</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    required>
+
+                <label for="descricao">Descreva sua ideia</label>
+
+                <textarea
+                    id="descricao"
+                    rows="5"
+                    required></textarea>
+
+                <button type="submit">
+
+                    Solicitar orçamento
+
+                </button>
+
+            </form>
+
+            <p id="mensagem"></p>
+
+        </section>
+
+
+        <!-- Contato -->
+
+        <section class="contato">
+
+            <h2>Entre em Contato</h2>
+
+            <p>📱 WhatsApp: (47) 98845-5383</p>
+
+            <p>📷 Instagram: @cortes.alaser</p>
+
+            <p>📍 Schroeder - SC</p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Rodapé -->
+
+    <footer>
+
+        <p>
+
+            © 2026 WA.A MDF Cortes a Laser - Todos os direitos reservados.
+
+        </p>
+
+    </footer>
+
+    <script src="../N3/script.js"></script>
+
+</body>
+
+</html>
