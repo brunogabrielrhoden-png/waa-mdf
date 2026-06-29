@@ -1,0 +1,133 @@
+# WA.A MDF Cortes a Laser
+
+## Descrição do Projeto
+
+O projeto **WA.A MDF Cortes a Laser** é um site institucional desenvolvido para apresentar produtos personalizados em MDF cortados a laser, voltados para decoração, presentes e itens religiosos.
+
+O site foi desenvolvido com **HTML, CSS e JavaScript puro**, sem uso de frameworks, com foco em organização, responsividade e experiência do usuário.
+
+Objetivo do site
+
+O objetivo do site é divulgar os produtos da empresa WA.A MDF, permitindo que os clientes conheçam o catálogo, entendam o processo de personalização e solicitem orçamentos de forma simples.
+
+ Público-alvo
+
+* Pessoas interessadas em decoração personalizada
+* Clientes que buscam presentes personalizados
+* Público religioso que deseja itens decorativos temáticos
+* Pequenos comércios e revendedores de MDF
+
+Paleta de cores e tipografia
+
+**Paleta de cores:**
+
+* Marrom escuro (#6D4C41 / #4E342E): transmite artesanato, madeira e confiança
+* Bege claro (#f8f5f2): fundo neutro para melhor leitura
+* Branco: destaque de cards e conteúdos
+* Dourado (#FFD54F): destaque de elementos ativos
+
+**Justificativa:**
+As cores foram escolhidas para remeter ao MDF e ao trabalho artesanal em madeira, transmitindo sensação de qualidade, rusticidade e profissionalismo.
+
+**Tipografia:**
+
+* Arial, Helvetica, sans-serif
+  Fonte simples, legível e compatível com todos os dispositivos.
+
+ Tecnologias utilizadas
+
+* HTML5 (estrutura do site)
+* CSS3 (estilização e responsividade)
+* JavaScript (interatividade e filtros de produtos)
+*  Nenhum framework foi utilizado
+
+---
+
+ Detalhamento do Site
+
+ Home
+
+Contém:
+
+* Banner principal com chamada (“Transformando MDF em Arte”)
+* Botão para acesso ao catálogo
+* Seção de diferenciais (personalização, qualidade e entrega)
+* Produtos em destaque com filtro por categorias
+* Avaliações de clientes
+
+ Catálogo
+
+* Exibe produtos organizados em grid
+* Permite filtragem por categoria:
+
+  * Todos
+  * Decoração
+  * Religioso
+* Cada produto contém imagem, título e descrição
+
+ Personalização
+
+* Explica o processo de criação de peças personalizadas
+* Orienta o cliente sobre como solicitar um orçamento
+
+ Sobre
+
+* Informações sobre a empresa
+* Objetivo e proposta do negócio
+
+ Contato
+
+* Informações de contato:
+
+  * WhatsApp
+  * Instagram
+  * Localização
+    
+Formulário de orçamento
+
+* Campos:
+
+  * Nome
+  * E-mail
+  * Descrição da ideia
+* Objetivo: permitir que o cliente solicite um orçamento personalizado
+
+Funcionalidades do JavaScript
+
+* Filtro de produtos por categoria (decoração / religioso / todos)
+* Validação básica do formulário
+* Exibição de mensagens de feedback ao usuário
+
+Responsividade
+
+O site é totalmente responsivo, adaptando-se a:
+
+* Celulares
+* Tablets
+* Computadores
+
+Ajustes incluem:
+
+* Menu em coluna no mobile
+* Grid de produtos em 1 coluna em telas pequenas
+* Formulário adaptado para telas menores
+
+Estrutura do Projeto
+
+```
+/index.html
+/Pages/
+   Catalogo.html
+   Personalizacao.html
+   Sobre.html
+   Contato.html
+/N3/
+   style.css
+   script.js
+/Imagens/
+   (produtos MDF)
+```
+
+Considerações finais
+
+O projeto foi desenvolvido com foco em simplicidade, desempenho e organização de código, utilizando apenas tecnologias fundamentais da web (HTML, CSS e JavaScript), sem dependência de frameworks externos.
